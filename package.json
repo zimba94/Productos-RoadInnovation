@@ -1,14 +1,23 @@
 {
-  "name": "road-innovation",
-  "version": "1.0.0",
-  "description": "Prueba con NodeJS ",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Alan Yael Mejía Campuzano",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "07-restserver",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Alan",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.0",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.1.10",
+        "google-auth-library": "^6.0.6",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.9.24",
+        "mongoose-unique-validator": "^2.0.3",
+        "underscore": "^1.10.2"
+    }
 }
